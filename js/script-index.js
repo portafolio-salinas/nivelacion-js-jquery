@@ -1,8 +1,13 @@
 $(document).ready( function(){
 
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
-	renderHighlightedRecipes(recipesArray);
+function renderHighlightedRecipes(recipesArray){
+	$.each(renderHighlightedRecipes(highlighted,true){
+		console.log('Este elemento con highlighted '+highlighted+'contiene '+ $(true).text());
+	});
 
+}
+	
 });
 
 
@@ -40,12 +45,4 @@ function renderActivities(activitiesArray) {
 */
 function renderActivity(recipe) {
 	
-}
-
-$(document).ready(function(){
-	$("#flecha").hide();
-});
-
-function printNews(){
-	$("<h1>NUEVAS RECETAS</h1>").insertAfter('#nueva');
 }

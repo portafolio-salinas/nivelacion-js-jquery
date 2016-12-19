@@ -3,5 +3,5 @@ $(document).ready(function(){
 });
 
 function printNews(){
-	$('<h1>NUEVAS RECETAS</h1>').append("#nueva-noticia");
-}
+	$('NUEVAS RECETAS').append("#nueva");
+}//no me funciona 
