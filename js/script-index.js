@@ -42,4 +42,6 @@ function renderActivity(recipe) {
 	
 }
 
-
+$(document).ready(function(){
+	$("#flecha").hide();
+});
